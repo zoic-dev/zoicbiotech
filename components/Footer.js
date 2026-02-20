@@ -108,17 +108,82 @@ const Footer = () => {
             }}
         >
             <Container>
-                <Grid container spacing={8} >
+                <Grid container spacing={8}>
 
-                    {/* Contact Us */}
-                    <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+                    {/* Product Categories */}
+                    <Grid size={{ xs: 12, sm: 5, md: 5 }}>
                         <Typography
                             variant="h6"
                             sx={{
                                 letterSpacing: 1,
                                 fontWeight: 500,
                                 mb: 2,
-                                color: "#f15d24",
+                                color: "#E42527",
+                            }}
+                        >
+                            Product Categories
+                        </Typography>
+
+                        <Typography
+                            sx={{
+                                color: "#acacac",
+                                fontSize: 16,
+                                textAlign:'justify'
+                            }}
+                        >
+                            Zoic was started in the year 1990 with a vision to be a Leading National Healthcare Company, improving Quality of Life. The mission of Zoic is to provide standardized and researched herbal healthcare products. We have a sturdy QMS system which implements the Total Quality Management in our entire group concerns. Our unit is accredited with ISO 9001:2008 certification and has been awarded with W.H.O -G.M.P Certificate.
+                        </Typography><br/>
+
+                        <Grid container spacing={2}>
+                            <Grid size={{ xs: 12, sm: 6, md: 4 }}>
+                                <img src={"/who.png"} width={100} height={100} />
+                            </Grid>
+                            <Grid size={{ xs: 12, sm: 6, md: 4 }}>
+                                <img src={"/iso.png"} width={100} height={100} />
+                            </Grid>
+                            <Grid size={{ xs: 12, sm: 6, md: 4 }}>
+                                <img src={"/gmp.png"} width={100} height={100} />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+
+                    {/* Company Links */}
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+                        <Typography
+                            variant="h6"
+                            sx={{ letterSpacing: 1, fontWeight: 500, mb: 2, color: "#E42527" }}
+                        >
+                            Company
+                        </Typography>
+                        <Stack spacing={2}>
+                            {additionalLinks.map((item, i) => (
+                                <MUILink
+                                    key={i}
+                                    component={Link}
+                                    href={item.href}
+                                    underline="none"
+                                    sx={{
+                                        color: "#acacac",
+                                        fontSize: 16,
+                                        transition: "0.3s",
+                                        "&:hover": { color: "#E42527" },
+                                    }}
+                                >
+                                    {item.label}
+                                </MUILink>
+                            ))}
+                        </Stack>
+                    </Grid>
+
+                    {/* Contact Us */}
+                    <Grid size={{ xs: 12, sm: 6, md: 4 }}>
+                        <Typography
+                            variant="h6"
+                            sx={{
+                                letterSpacing: 1,
+                                fontWeight: 500,
+                                mb: 2,
+                                color: "#E42527",
                             }}
                         >
                             Contact Us
@@ -135,7 +200,7 @@ const Footer = () => {
                                         color: "#acacac",
                                         fontSize: 16,
                                         transition: "0.3s",
-                                        "&:hover": { color: "#f15d24" },
+                                        "&:hover": { color: "#E42527" },
                                     }}
                                 >
                                     info@zocveda.com
@@ -152,7 +217,7 @@ const Footer = () => {
                                         color: "#acacac",
                                         fontSize: 16,
                                         transition: "0.3s",
-                                        "&:hover": { color: "#f15d24" },
+                                        "&:hover": { color: "#E42527" },
                                     }}
                                 >
                                     +91-98156-20908
@@ -171,7 +236,7 @@ const Footer = () => {
                                         fontSize: 16,
                                         transition: "0.3s",
                                         lineHeight: '1.25',
-                                        "&:hover": { color: "#f15d24" },
+                                        "&:hover": { color: "#E42527" },
                                     }}
                                 >
                                     PLOT NO. 194, Sector 82, JLPL Industrial Area, Mohali
@@ -224,123 +289,6 @@ const Footer = () => {
                             >
                                 <LinkedIn />
                             </IconButton>
-                        </Stack>
-                    </Grid>
-
-                    {/* Product Categories */}
-                    <Grid size={{ xs: 12, sm: 6, md: 6 }}>
-                        <Typography
-                            variant="h6"
-                            sx={{
-                                letterSpacing: 1,
-                                fontWeight: 500,
-                                mb: 2,
-                                color: "#f15d24",
-                            }}
-                        >
-                            Product Categories
-                        </Typography>
-
-                        <Grid container spacing={2}>
-                            <Grid size={{ xs: 12, sm: 6 }}>
-                                <Stack spacing={2}>
-                                    {productLinks1.map(
-                                        (item, i) => (
-                                            <MUILink
-                                                key={i}
-                                                component={Link}
-                                                href={item.href}
-                                                underline="none"
-                                                sx={{
-                                                    color: "#acacac",
-                                                    fontSize: 16,
-                                                    transition: "0.3s",
-                                                    "&:hover": { color: "#f15d24" },
-                                                }}
-                                            >
-                                                {item.label}
-                                            </MUILink>
-                                        )
-                                    )}
-                                </Stack>
-                            </Grid>
-                            <Grid size={{ xs: 12, sm: 6 }}>
-                                <Stack spacing={2}>
-                                    {productLinks2.map(
-                                        (item, i) => (
-                                            <MUILink
-                                                key={i}
-                                                component={Link}
-                                                href={item.href}
-                                                underline="none"
-                                                sx={{
-                                                    color: "#acacac",
-                                                    fontSize: 16,
-                                                    transition: "0.3s",
-                                                    "&:hover": { color: "#f15d24" },
-                                                }}
-                                            >
-                                                {item.label}
-                                            </MUILink>
-                                        )
-                                    )}
-                                </Stack>
-                            </Grid>
-                        </Grid>
-                    </Grid>
-
-                    {/* <Grid size={{ xs: 12, sm: 6, md: 3 }}>
-                        <Typography
-                            variant="h6"
-                            sx={{ letterSpacing: 1, fontWeight: 500, mb: 2, color: "transparent" }}
-                        >
-                            Product Categories
-                        </Typography>
-                        <Stack spacing={2}>
-                            {productLinks2.map((item, i) => (
-                                <MUILink
-                                    key={i}
-                                    component={Link}
-                                    href={item.href}
-                                    underline="none"
-                                    sx={{
-                                        color: "#acacac",
-                                        fontSize: 16,
-                                        transition: "0.3s",
-                                        "&:hover": { color: "#f15d24" },
-                                    }}
-                                >
-                                    {item.label}
-                                </MUILink>
-                            ))}
-                        </Stack>
-                    </Grid> */}
-
-                    {/* Company Links */}
-                    <Grid size={{ xs: 12, sm: 6, md: 3 }}>
-                        <Typography
-                            variant="h6"
-                            sx={{ letterSpacing: 1, fontWeight: 500, mb: 2, color: "#f15d24" }}
-                        >
-                            Company
-                        </Typography>
-                        <Stack spacing={2}>
-                            {additionalLinks.map((item, i) => (
-                                <MUILink
-                                    key={i}
-                                    component={Link}
-                                    href={item.href}
-                                    underline="none"
-                                    sx={{
-                                        color: "#acacac",
-                                        fontSize: 16,
-                                        transition: "0.3s",
-                                        "&:hover": { color: "#f15d24" },
-                                    }}
-                                >
-                                    {item.label}
-                                </MUILink>
-                            ))}
                         </Stack>
                     </Grid>
                 </Grid>

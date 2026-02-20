@@ -212,8 +212,8 @@ export default function PageContent() {
                             Email
                         </Typography>
                         <Stack direction="row" justifyContent="center" spacing={2}>
-                            <Link href="mailto:info@zocveda.com">
-                                <Typography variant="body1">info@zocveda.com</Typography>
+                            <Link href="mailto:info@zoicbiotech.com">
+                                <Typography variant="body1">info@zoicbiotech.com</Typography>
                             </Link>
                         </Stack>
                     </Stack>
@@ -261,11 +261,10 @@ export default function PageContent() {
 
             <Toolbar />
 
-
             {/* Contact Form */}
 
             <FormProvider methods={methods} onSubmit={handleSubmit(onSubmit)}>
-                <Grid container spacing={4} alignItems={"center"}>
+                <Grid container spacing={4} alignItems={"start"}>
                     <Grid size={{ xs: 12, sm: 6 }}>
                         <Stack spacing={2} mb={4}>
                             {!!errors.afterSubmit && (
@@ -330,7 +329,7 @@ export default function PageContent() {
                     </Grid>
 
                     <Grid size={{ xs: 12, sm: 6 }}>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.316972400114!2d76.68902677503657!3d30.70948828675665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef58989e4539%3A0x621d4175318210fc!2sZOCVEDA%20-%20Ayurvedic%20Franchise%20Company%20-%20Pharma%20Franchise%20-%20Third%20Party%20Manufacturing!5e0!3m2!1sen!2sin!4v1763627222352!5m2!1sen!2sin" width="100%" height="400" style={{ border: '0' }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.316972400114!2d76.68902677503657!3d30.70948828675665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef58989e4539%3A0x621d4175318210fc!2sZOCVEDA%20-%20Ayurvedic%20Franchise%20Company%20-%20Pharma%20Franchise%20-%20Third%20Party%20Manufacturing!5e0!3m2!1sen!2sin!4v1763627222352!5m2!1sen!2sin" width="100%" height="500" style={{ border: '0' }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </Grid>
                 </Grid>
             </FormProvider>

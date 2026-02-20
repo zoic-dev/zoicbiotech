@@ -26,7 +26,7 @@ import { Email, Facebook, LinkedIn, Phone, X as TwitterX, YouTube } from "@mui/i
 
 // === Styled Components ===
 const NavbarContainer = styled(AppBar)`
-  background-color: #F3FFF8;
+  background-color: #FFFFFF;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(8px);
   overflow: visible !important;
@@ -34,14 +34,14 @@ const NavbarContainer = styled(AppBar)`
 `;
 
 const NavLink = styled("span")(({ active }) => ({
-    color: active ? "#1F6A36" : "#000",
+    color: active ? "#E42527" : "#000",
     fontSize: "16px",
     fontWeight: 500,
     transition: "color 0.3s ease",
     textDecoration: "none",
     cursor: "pointer",
     "&:hover": {
-        color: "#1F6A36",
+        color: "#E42527",
     },
 }));
 
@@ -72,7 +72,7 @@ const DropdownMenu = styled("div")`
 
     &:hover {
       background-color: #f8f8f8;
-      color: #1F6A36;
+      color: #E42527;
     }
   }
 `;
@@ -93,7 +93,6 @@ export default function Navbar() {
 
     const navLinks = [
         { label: "Home", href: "/" },
-        { label: "Ayurveda", href: "/ayurveda" },
         { label: "About", href: "/about" },
         {
             label: "Products", href: "/products",
@@ -125,7 +124,7 @@ export default function Navbar() {
                 px={2}
                 py={0.5}
                 sx={{
-                    background: "#617F00",
+                    background: "#E42527",
                     color: "white",
                     display: "flex",
                     alignItems: "center",
@@ -283,11 +282,11 @@ export default function Navbar() {
                                 href="/contact"
                                 variant="outlined"
                                 sx={{
-                                    borderColor: "#f15d24",
-                                    color: "#f15d24",
+                                    borderColor: "#E42527",
+                                    color: "#E42527",
                                     fontFamily: '"Montserrat", sans-serif',
                                     fontWeight: 600,
-                                    "&:hover": { backgroundColor: "#f15d24", color: "#fff" },
+                                    "&:hover": { backgroundColor: "#E42527", color: "#fff" },
                                 }}
                             >
                                 ENQUIRE NOW
@@ -342,7 +341,7 @@ export default function Navbar() {
                                         justifyContent: "space-between",
                                         alignItems: "center",
                                         cursor: "pointer",
-                                        color: "#1F6A36",
+                                        color: "#E42527",
                                         fontWeight: 600,
                                     }}
                                 >
@@ -382,10 +381,10 @@ export default function Navbar() {
                     fullWidth
                     variant="contained"
                     sx={{
-                        backgroundColor: "#f77925",
+                        backgroundColor: "#E42527",
                         color: "#fff",
                         fontWeight: 600,
-                        "&:hover": { backgroundColor: "#f77925" },
+                        "&:hover": { backgroundColor: "#E42527" },
                     }}
                 >
                     ENQUIRE NOW
