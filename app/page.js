@@ -1,5 +1,7 @@
 "use client";
 
+import FAQComponent from "@/components/FAQComponent";
+import { PAGE_FAQS } from "@/data/faqsdata";
 import { Business, CalendarToday, EmojiEvents, Gavel, Groups, Handshake, Inventory2, MedicalServices, ReceiptLong, TrendingUp, Verified, Visibility } from "@mui/icons-material";
 import { Button, Container, Grid, Stack, Typography, Card, Toolbar } from "@mui/material";
 import Link from "next/link";
@@ -43,7 +45,7 @@ const productCategories = [
   },
   {
     label: "Powders & Granules",
-    img: "/categories/powders.jpg",
+    img: "/categories/protein.jpg",
     link: "/product/category/powders-and-granules/396"
   },
   {
@@ -78,7 +80,7 @@ const productCategories = [
   },
   {
     label: "Energy Drink",
-    img: "/categories/energy-drink.jpg",
+    img: "/categories/energy-drinks.jpg",
     link: "/product/category/enery-drink/398"
   },
   {
@@ -164,6 +166,48 @@ export default function Home() {
 
       <Toolbar />
 
+      {/* PRODUCT CATEGORIES */}
+      <Container>
+        <Stack spacing={6}>
+          <Typography variant="h4" fontWeight={700} textAlign="center">
+            Our Product Range
+          </Typography>
+
+          <Grid container spacing={2} justifyContent="center">
+            {productCategories.map((item, index) => (
+              <Grid key={index} size={{ xs: 6, sm: 4, md: 2 }}>
+                <Link href={item.link || "#"}>
+                  <Card
+                    sx={{
+                      p: 2,
+                      borderRadius: 3,
+                      textAlign: "center",
+                      boxShadow: "0px 4px 15px rgba(0,0,0,0.08)",
+                      transition: "0.3s",
+                      "&:hover": {
+                        transform: "translateY(-6px)",
+                        boxShadow: "0px 8px 25px rgba(0,0,0,0.15)"
+                      }
+                    }}
+                  >
+                    <img
+                      src={item.img}
+                      alt={item.label}
+                      style={{ width: "100%", height: "auto", marginBottom: 16 }}
+                    />
+                    <Typography fontWeight={600}>
+                      {item.label}
+                    </Typography>
+                  </Card>
+                </Link>
+              </Grid>
+            ))}
+          </Grid>
+        </Stack>
+      </Container>
+
+      <Toolbar />
+
       {/* MISSION VISION VALUES */}
       <Stack sx={{ py: 8, background: "#f5f5f5" }}>
         <Container>
@@ -227,50 +271,6 @@ export default function Home() {
           </Grid>
         </Container>
       </Stack>
-
-      <Toolbar />
-
-      {/* PRODUCT CATEGORIES */}
-      <Container>
-        <Stack spacing={6}>
-          <Typography variant="h4" fontWeight={700} textAlign="center">
-            Our Product Range
-          </Typography>
-
-          <Grid container spacing={2} justifyContent="center">
-            {productCategories.map((item, index) => (
-              <Grid key={index} size={{ xs: 6, sm: 4, md: 2 }}>
-                <Link href={item.link || "#"}>
-                  <Card
-                    sx={{
-                      p: 3,
-                      borderRadius: 3,
-                      textAlign: "center",
-                      boxShadow: "0px 4px 15px rgba(0,0,0,0.08)",
-                      transition: "0.3s",
-                      "&:hover": {
-                        transform: "translateY(-6px)",
-                        boxShadow: "0px 8px 25px rgba(0,0,0,0.15)"
-                      }
-                    }}
-                  >
-                    <img
-                      src={item.img}
-                      alt={item.label}
-                      style={{ width: 100, height: 100, marginBottom: 16 }}
-                    />
-                    <Typography fontWeight={600}>
-                      {item.label}
-                    </Typography>
-                  </Card>
-                </Link>
-              </Grid>
-            ))}
-          </Grid>
-        </Stack>
-      </Container>
-
-      <Toolbar />
 
       {/* WHY CHOOSE ZOIC - STATS SECTION */}
       <Stack
@@ -562,6 +562,10 @@ export default function Home() {
       </Container>
 
       <Toolbar />
+
+      <Container>
+        <FAQComponent faqs={PAGE_FAQS.home} />
+      </Container>
 
     </>
   );

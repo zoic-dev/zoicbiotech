@@ -9,7 +9,7 @@ import {
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 // Pass PRIMARY from parent or set a fallback
-export default function FAQComponent({ faqs = [], PRIMARY = "#1F6A36" }) {
+export default function FAQComponent({ faqs = [], PRIMARY = "#e42527" }) {
     return (
         <Box sx={{ my: 6 }}>
             {/* Section Title */}

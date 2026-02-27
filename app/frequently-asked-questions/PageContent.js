@@ -26,247 +26,164 @@ const BG = "#F3FFF8";
 
 const FAQS = [
   {
-    q: "How does the Ayurvedic PCD franchise business model work in India?",
-    a: "The Ayurvedic PCD franchise business works on a distribution-based model where Zocveda - PCD Pharma Company provides Ayurvedic products, marketing materials, monopoly rights, and business support to franchise partners. You can promote and sell our herbal and Ayurvedic product range in your own territory. This model is trending because it offers low investment, high profits, and long-term growth.",
-    tag: "Ayurvedic PCD Franchise",
+    q: "What is third-party pharma manufacturing?",
+    a: "Third-party pharma manufacturing is a process where a company outsources the manufacturing of its products to a certified manufacturer, then sells them under its own brand name. The manufacturing partner handles production, packaging, and quality testing, which allows businesses to focus on marketing and distribution without investing in infrastructure.",
+    tag: "General Third-Party Manufacturing",
   },
   {
-    q: "What are the requirements to start an Ayurvedic PCD franchise with Zocveda?",
-    a: `
-    To start an Ayurvedic PCD franchise, you need:
-        <ul>
-        <li>A valid GST Number</li>
-        <li>Experience in pharma or Ayurvedic sales (recommended, not compulsory)</li>
-        <li>A small investment in stock</li>
-        <li>Basic infrastructure, like a shop or warehouse</li>
-        </ul>
-        Zocveda - PCD Pharma Company helps new entrepreneurs easily start their Ayurvedic PCD Pharma franchise.
-        `,
-    tag: "Ayurvedic PCD Franchise",
+    q: "Who can start third-party manufacturing?",
+    a: "Entrepreneurs, startups, distributors, healthcare professionals, and pharma companies can start third-party manufacturing. It is suitable for anyone who wants to launch their own product line without having to set up a manufacturing facility.",
+    tag: "General Third-Party Manufacturing"
   },
   {
-    q: "What support does Zocveda offer to Ayurvedic PCD franchise partners?",
-    a: `
-    We provide full business support, including:
-    <ul>
-    <li>Monopoly rights</li>
-    <li>Free marketing materials</li>
-    <li>Promotional tools</li>
-    <li>High-quality Ayurvedic products</li>
-    <li>Fast delivery and reliable service</li>
-    </ul>
-    Our support ensures that franchise owners can scale their Ayurvedic franchise business quickly.
-    `,
-    tag: "Ayurvedic PCD Franchise",
+    q: "Is third-party manufacturing profitable?",
+    a: "Yes, it is considered profitable because it reduces operational costs and eliminates the need for factory investment. Businesses can focus more on brand building and sales, which improves profit potential.",
+    tag: "General Third-Party Manufacturing"
   },
   {
-    q: "How profitable is the Ayurvedic PCD franchise business in India?",
-    a: "The Ayurvedic market in India is growing rapidly, making the Ayurvedic PCD franchise business highly profitable. With increasing demand for herbal wellness products, franchise owners enjoy high margins, repeat orders, and stable monthly income. Zocveda’s premium product range further boosts profitability.",
-    tag: "Ayurvedic PCD Franchise",
+    q: "Do I need prior experience to start?",
+    a: "No prior experience is required. Manufacturers usually provide complete guidance, including product selection, documentation, and packaging support, making it easier for new businesses to enter the industry.",
+    tag: "General Third-Party Manufacturing"
   },
   {
-    q: "Does Zocveda provide Ayurvedic third-party manufacturing services?",
-    a: "Yes, Zocveda - PCD Pharma Company offers Ayurvedic third-party manufacturing for startups, MSMEs, and established Ayurvedic brands across India. We manufacture syrups, tablets, capsules, oils, juices, herbal powders, and more with premium quality standards and fast turnaround time.",
-    tag: "Ayurvedic & Herbal Third Party Manufacturing"
-  },
-  {
-    q: "What is the minimum order quantity (MOQ) for Ayurvedic third-party manufacturing?",
-    a: "Our MOQ is flexible and ideal for small & medium businesses. You can start with small batches, making it easy to launch your own Ayurvedic private label products without heavy investment.",
-    tag: "Ayurvedic & Herbal Third Party Manufacturing"
-  },
-  {
-    q: "How does Zocveda ensure product quality in Ayurvedic manufacturing?",
-    a: "Zocveda - PCD Pharma Company follows strict GMP, ISO, and Ayush-approved standards. We use authentic herbs, maintain clean manufacturing practices, and ensure every product passes quality checks for purity, safety, and effectiveness.",
-    tag: "Ayurvedic & Herbal Third Party Manufacturing"
-  },
-  {
-    q: "What Ayurvedic and herbal products does Zocveda offer?",
-    a: `Zocveda - PCD Pharma Company offers a wide Ayurvedic and herbal product range, including:
-      <ul>
-      <li>Digestive care syrups</li>
-      <li>Pain relief oils and balms</li>
-      <li>Immunity boosters</li>
-      <li>Herbal juices</li>
-      <li>Ayurvedic tablets & capsules</li>
-      <li>Skincare & personal care products</li>
-      </ul>
-      We specialise in high-demand Ayurvedic formulations for PCD and third-party clients.
-      `,
+    q: "What types of products do you manufacture?",
+    a: "Products include nutraceutical supplements, softgel capsules, gummies, herbal products, skincare, and personal care items. Multiple dosage forms are available depending on market needs and brand requirements.",
     tag: "Product Range & Quality Assurance"
   },
   {
-    q: "Are Zocveda’s Ayurvedic products approved by regulatory authorities?",
-    a: "Yes. All our herbal and Ayurvedic products are manufactured under Ayush-approved formulations, following GMP & ISO quality standards. This ensures safety, purity, and compliance with Indian regulatory norms.",
+    q: "Are your products manufactured under certified facilities?",
+    a: "Yes, products are manufactured in certified facilities following quality standards such as GMP and ISO guidelines to ensure safety, consistency, and compliance.",
     tag: "Product Range & Quality Assurance"
   },
   {
-    q: "What is the investment cost to start an Ayurvedic PCD franchise?",
-    a: "Starting an Ayurvedic PCD franchise with Zocveda - PCD Pharma Company requires low investment, typically between ₹10,000–₹50,000, depending on your chosen product range. You can scale the investment as your business grows.",
-    tag: "Business, Investment & Ownership"
+    q: "How is product quality ensured?",
+    a: "Quality is maintained through strict testing procedures, including raw material inspection, in-process checks, and final product testing before delivery to ensure safety and effectiveness.",
+    tag: "Product Range & Quality Assurance"
   },
   {
-    q: "How can I apply for the Ayurvedic PCD franchise or third-party manufacturing?",
-    a: `You can easily apply via:
-        <ul>
-        <li>Our website contact form</li>
-        <li>WhatsApp</li>
-        <li>Direct call</li>
-        <li>Email</li>
-        </ul>
-        Zocveda’s team will guide you through product selection, pricing, documentation, and onboarding.
-      `,
-    tag: "Business, Investment & Ownership"
+    q: "Do you use high-quality ingredients?",
+    a: "Yes, ingredients are sourced from trusted suppliers and tested before production to ensure purity, potency, and safety standards are met.",
+    tag: "Product Range & Quality Assurance"
   },
   {
-    q: "Why choose Zocveda as your Ayurvedic PCD franchise or third-party manufacturing partner?",
-    a: `
-    Zocveda - PCD Pharma Company is one of the most trusted Ayurvedic PCD franchise companies in India, known for:
-    <ul>
-    <li>High-quality Ayurvedic products</li>
-    <li>Ethical business practices</li>
-    <li>Monopoly-based franchise model</li>
-    <li>Fast manufacturing & delivery</li>
-    <li>Transparent pricing</li>
-    </ul>
-    Our expertise makes us a reliable partner in the Ayurvedic pharma industry.
-    `,
-    tag: "Company Information"
-  },
-  {
-    q: "Where is Zocveda located?",
-    a: "Zocveda - PCD Pharma Company is based in Mohali, Punjab, and supplies Ayurvedic products across Pan India through PCD franchise and third-party manufacturing services.",
-    tag: "Company Information"
-  },
-  {
-    q: "Why is the Ayurvedic industry growing so fast in India?",
-    a: "The Ayurvedic industry is growing because customers prefer natural, chemical-free wellness products, and the Indian government supports Ayurveda through AYUSH initiatives. This creates huge opportunities for Ayurvedic PCD franchise owners and herbal product manufacturers.",
-    tag: "General Ayurveda Business & Industry"
-  },
-  {
-    q: "Is an Ayurvedic business profitable in small towns and rural areas?",
-    a: "Yes. Ayurvedic products have a strong demand in Tier-2 and Tier-3 towns, making it highly profitable even with low investment. Zocveda supplies fast-moving Ayurvedic products ideal for rural markets.",
-    tag: "General Ayurveda Business & Industry"
-  },
-  {
-    q: "Can I start an Ayurvedic business without a physical shop?",
-    a: "Yes. Many franchise partners run the business through online selling, WhatsApp, and local distribution without a shop. A storage space is enough.",
-    tag: "General Ayurveda Business & Industry"
-  },
-  {
-    q: "What makes Ayurveda better than allopathic products for business?",
-    a: "Ayurveda offers fewer side effects, repeat purchases, high trust, and low entry barriers, making it attractive for entrepreneurs.",
-    tag: "General Ayurveda Business & Industry"
-  },
-  {
-    q: "Does Ayurveda require cold storage or special storage conditions?",
-    a: "No. Ayurvedic products require only a cool, dry place, making storage and logistics very easy.",
-    tag: "General Ayurveda Business & Industry"
-  },
-  {
-    q: "What makes Zocveda different from other Ayurvedic companies?",
-    a: "Zocveda stands out because of premium-quality formulations, research-based products, competitive pricing, fast delivery, and dedicated support for both PCD franchise and private-label clients.",
-    tag: "Why Zocveda?"
-  },
-  {
-    q: "What are the trending Ayurvedic formulations for 2025?",
-    a: `
-    Trending products include:
-    <ul>
-    <li>Liver detox syrup</li>
-    <li>Female wellness tonics</li>
-    <li>Immunity boosters</li>
-    <li>Ayurvedic juices</li>
-    <li>Pain relief oils</li>
-    <li>Gut health formulations</li>
-    </ul>
-    These are high-demand products for both PCD franchise and private-label brands.
-    `,
+    q: "Can I create my own product formulation?",
+    a: "Yes, customized formulations can be developed based on your brand needs, ingredient preferences, and target market requirements with expert support.",
     tag: "Product & Formulation"
   },
   {
-    q: "How does Zocveda ensure herbs are sourced ethically?",
-    a: "We use certified suppliers, follow AYUSH guidelines, and source herbs from trusted farmers to ensure ethical and pure raw materials.",
+    q: "Can products be customized in flavor and packaging?",
+    a: "Yes, customization options include flavor, color, fragrance, dosage strength, and packaging design to match your brand identity and customer preferences.",
     tag: "Product & Formulation"
   },
   {
-    q: "Are your herbal products suitable for all age groups?",
-    a: "Most products are safe for adults. However, certain formulations for kids, seniors, or pregnant women are categorized separately.",
+    q: "Do you help in selecting trending products?",
+    a: "Yes, manufacturers often provide guidance on market trends and high-demand products to help businesses choose profitable options.",
     tag: "Product & Formulation"
   },
   {
-    q: "How fast does Zocveda ship PCD franchise orders?",
-    a: "We dispatch orders within 1 - 2 weeks, depending on the location, ensuring quick supply for distributors across India.",
-    tag: "Distribution, Logistics & Ordering"
+    q: "Why are softgel capsules popular?",
+    a: "Softgels are easy to swallow, offer better absorption, and protect sensitive ingredients from environmental factors, making them a preferred choice for supplements.",
+    tag: "Softgel, Gummies & Nutraceutical Manufacturing"
   },
   {
-    q: "Does Zocveda provide express shipping for urgent requirements?",
-    a: "Yes. We offer priority shipping and express courier services on request.",
-    tag: "Distribution, Logistics & Ordering"
+    q: "Are nutraceutical gummies effective?",
+    a: "Yes, when properly formulated, gummies deliver nutrients effectively and improve consumer compliance due to their taste and convenience.",
+    tag: "Softgel, Gummies & Nutraceutical Manufacturing"
   },
   {
-    q: "Can I track my Ayurvedic product shipment online?",
-    a: "Yes. We share tracking details so you can monitor your shipment in real time.",
-    tag: "Distribution, Logistics & Ordering"
+    q: "What nutraceutical dosage forms are available?",
+    a: "Available forms include tablets, capsules, softgels, powders, sachets, syrups, and gummies, allowing businesses to select products based on their target audience.",
+    tag: "Softgel, Gummies & Nutraceutical Manufacturing"
   },
   {
-    q: "What if products get damaged during shipping?",
-    a: "We follow secure packaging, but if damage occurs, Zocveda provides quick replacement support after verification.",
-    tag: "Distribution, Logistics & Ordering"
+    q: "Can gummies be made for kids and adults?",
+    a: "Yes, formulations can be adjusted for different age groups with suitable ingredients and dosage levels.",
+    tag: "Softgel, Gummies & Nutraceutical Manufacturing"
   },
   {
-    q: "Can I reorder online or through WhatsApp?",
-    a: "Yes. You can easily reorder through WhatsApp, call, or our website inquiry form.",
-    tag: "Distribution, Logistics & Ordering"
+    q: "What cosmetic products can be manufactured?",
+    a: "Products include skincare creams, lotions, face wash, shampoos, serums, oils, and herbal personal care products designed for various consumer needs.",
+    tag: "Cosmetics & Personal Care Manufacturing"
   },
   {
-    q: "Are there hidden charges involved in the Ayurvedic PCD franchise?",
-    a: "No. Zocveda follows transparent pricing with no hidden fees, royalty charges, or annual renewal fees.",
+    q: "Are cosmetic products tested for safety?",
+    a: "Yes, products undergo safety and stability testing to ensure they meet quality standards and are safe for consumer use.",
+    tag: "Cosmetics & Personal Care Manufacturing"
+  },
+  {
+    q: "Can I launch my own cosmetic brand?",
+    a: "Yes, private labeling allows you to sell cosmetic products under your brand name while the manufacturer handles production and packaging.",
+    tag: "Cosmetics & Personal Care Manufacturing"
+  },
+  {
+    q: "Do you provide packaging and label design support?",
+    a: "Yes, packaging solutions include bottle selection, label design, printing, and product box development to create professional branding.",
+    tag: "Branding, Label Design & Private Labeling"
+  },
+  {
+    q: "Can I use my own brand name?",
+    a: "Yes, products are manufactured and packed under your brand name, allowing you to build your own market identity.",
+    tag: "Branding, Label Design & Private Labeling"
+  },
+  {
+    q: "Do you help with branding strategy?",
+    a: "Yes, guidance is provided to help position your products effectively through packaging and product selection strategies.",
+    tag: "Branding, Label Design & Private Labeling"
+  },
+  {
+    q: "What is the minimum order quantity (MOQ)?",
+    a: "MOQ depends on product type, packaging requirements, and formulation complexity. Flexible options are often available for startups.",
     tag: "Financial, Pricing & Investment"
   },
   {
-    q: "Do you offer credit or flexible payment options to distributors?",
-    a: "Initially, we follow an advance payment, but long-term partners may get flexible options based on trust and performance.",
+    q: "What factors affect manufacturing cost?",
+    a: "Costs depend on ingredients, packaging materials, customization level, and order quantity. Bulk production usually reduces per-unit cost.",
     tag: "Financial, Pricing & Investment"
   },
   {
-    q: "Why do Ayurvedic products offer higher profit margins than allopathic?",
-    a: "Because Ayurveda has low production cost, high demand, repeat customers, and brand loyalty, increasing margin potential.",
-    tag: "Financial, Pricing & Investment"
+    q: "What documents are required to start?",
+    a: "Documents typically include GST registration, company details, PAN card, and relevant licenses, depending on the product category.",
+    tag: "Process & Documentation"
   },
   {
-    q: "How does product seasonality affect Ayurvedic sales?",
-    a: "Some products (like immunity & respiratory care) sell more seasonally, but most Ayurvedic products show year-round demand.",
-    tag: "Financial, Pricing & Investment"
+    q: "How long does manufacturing take?",
+    a: "Production usually takes around 30 to 50 days, depending on product type, customization, and order quantity.",
+    tag: "Process & Documentation"
   },
   {
-    q: "Are price lists tailored based on region or state?",
-    a: "No. Zocveda provides a uniform price list, ensuring fairness across India.",
-    tag: "Financial, Pricing & Investment"
+    q: "What is the manufacturing process?",
+    a: "The process includes requirement discussion, formulation finalization, packaging approval, production, quality testing, and delivery.",
+    tag: "Process & Documentation"
   },
   {
-    q: "Does Zocveda help with logo and Ayurvedic label designing?",
-    a: "Yes. We provide label, box design, bottle design, and brand identity support for private-label clients.",
-    tag: "Branding, Label Design & Private Labelling"
+    q: "Do you deliver products across India?",
+    a: "Yes, products are delivered nationwide through reliable logistics networks with proper packaging and safety measures.",
+    tag: "Logistics, Delivery & Support"
   },
   {
-    q: "Can I choose custom bottle shapes and packaging styles?",
-    a: "Yes. Zocveda offers different bottle shapes, sizes, caps, label finishes, and packaging options.",
-    tag: "Branding, Label Design & Private Labelling"
+    q: "Do you provide after-sales support?",
+    a: "Yes, ongoing support is provided for reorders, product queries, and future product development needs.",
+    tag: "Logistics, Delivery & Support"
   },
   {
-    q: "Can I launch a premium Ayurveda brand with gold or matte packaging?",
-    a: "Yes. We provide premium matte, foiling, and laminated boxes for high-end Ayurvedic brands.",
-    tag: "Branding, Label Design & Private Labelling"
+    q: "Can I reorder products easily?",
+    a: "Yes, manufacturers maintain formulation records, making repeat orders simple and faster.",
+    tag: "Logistics, Delivery & Support"
   },
   {
-    q: "Does Zocveda offer barcode, QR code, and batch printing?",
-    a: "Yes. We add barcodes, QR codes, manufacturing dates, and batch numbers as per regulatory norms.",
-    tag: "Branding, Label Design & Private Labelling"
+    q: "Do you support startups?",
+    a: "Yes, flexible MOQs, product guidance, and documentation support are provided to help startups enter the market smoothly.",
+    tag: "Business Partnership & Growth"
   },
   {
-    q: "Can Zocveda manufacture Ayurvedic products under strict confidentiality (NDA)?",
-    a: "Yes. We sign Non-Disclosure Agreements (NDA) for unique or proprietary formulations.",
-    tag: "Branding, Label Design & Private Labelling"
+    q: "Can I launch multiple products at once?",
+    a: "Yes, multiple products can be manufactured together depending on production planning and requirements.",
+    tag: "Business Partnership & Growth"
+  },
+  {
+    q: "How do I start working with your company?",
+    a: "You can contact the team with your requirements, finalize product details, complete documentation, and begin production after approval.",
+    tag: "Business Partnership & Growth"
   }
 ];
 
@@ -293,7 +210,7 @@ export default function FaqPage() {
   };
 
   return (
-    <Box sx={{  minHeight: "100%", py: 8 }}>
+    <Box sx={{ minHeight: "100%", py: 8 }}>
       <Container maxWidth="lg">
         <Box sx={{ textAlign: "center", mb: 4 }}>
           <Typography variant="h3" sx={{ color: PRIMARY, fontWeight: 900, mb: 1 }}>
