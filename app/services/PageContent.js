@@ -219,7 +219,7 @@ export default function PageContent() {
                         </Typography>
 
                         <Typography>
-                            <b>Address</b> - Plot No. 193, Cabin no -1, Industrial Area Sector 82. Mohali – 160082
+                            <b>Address</b> - Plot No. 193, Industrial Area Sector 82. Mohali – 160082
                         </Typography>
 
                         <Typography>

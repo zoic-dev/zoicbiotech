@@ -293,7 +293,7 @@ export default function FaqPage() {
   };
 
   return (
-    <Box sx={{ background: BG, minHeight: "100%", py: 8 }}>
+    <Box sx={{  minHeight: "100%", py: 8 }}>
       <Container maxWidth="lg">
         <Box sx={{ textAlign: "center", mb: 4 }}>
           <Typography variant="h3" sx={{ color: PRIMARY, fontWeight: 900, mb: 1 }}>

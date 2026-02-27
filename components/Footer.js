@@ -85,12 +85,12 @@ const additionalLinks = [
         href: '/frequently-asked-questions'
     },
     {
-        label: 'PCD Franchise',
-        href: '/ayurvedic-pcd-pharma-franchise'
+        label: 'Services',
+        href: '/services'
     },
     {
-        label: 'Third Party Manufacturing',
-        href: '/third-party-manufacturing'
+        label: 'Why Choose Us?',
+        href: '/why-choose-us'
     },
 ];
 
@@ -110,19 +110,7 @@ const Footer = () => {
             <Container>
                 <Grid container spacing={8}>
 
-                    {/* Product Categories */}
                     <Grid size={{ xs: 12, sm: 5, md: 5 }}>
-                        <Typography
-                            variant="h6"
-                            sx={{
-                                letterSpacing: 1,
-                                fontWeight: 500,
-                                mb: 2,
-                                color: "#E42527",
-                            }}
-                        >
-                            Product Categories
-                        </Typography>
 
                         <Typography
                             sx={{
@@ -194,7 +182,7 @@ const Footer = () => {
 
                                 <MUILink
                                     component={Link}
-                                    href={"mailto:info@zocveda.com"}
+                                    href={"mailto:contact@zoicpharma.com"}
                                     underline="none"
                                     sx={{
                                         color: "#acacac",
@@ -203,7 +191,7 @@ const Footer = () => {
                                         "&:hover": { color: "#E42527" },
                                     }}
                                 >
-                                    info@zocveda.com
+                                    contact@zoicpharma.com
                                 </MUILink>
                             </Stack>
 

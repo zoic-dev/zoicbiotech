@@ -17,7 +17,7 @@ const accreditationImages = [
 
 export default function AccreditationsPage() {
     return (
-        <Box sx={{ minHeight: '100vh', backgroundColor: BG, py: { xs: 6, md: 12 } }}>
+        <Box sx={{ minHeight: '100vh', py: { xs: 6, md: 12 } }}>
             <Container maxWidth="lg">
 
                 {/* Hero Section */}

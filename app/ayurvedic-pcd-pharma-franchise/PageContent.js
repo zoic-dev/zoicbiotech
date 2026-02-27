@@ -345,7 +345,7 @@ export default function PageContent() {
                                     </ListItem>
                                     <ListItem sx={{ width: 'auto' }}>
                                         <ListItemIcon><EmailIcon sx={{ color: PRIMARY }} /></ListItemIcon>
-                                        <ListItemText primary="info@zocveda.com" />
+                                        <ListItemText primary="contact@zoicpharma.com" />
                                     </ListItem>
                                 </List>
                             </Box>

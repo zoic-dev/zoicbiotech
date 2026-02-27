@@ -27,11 +27,6 @@ const productCategories = [
     link: "/product/category/syrup/314"
   },
   {
-    label: "Injection",
-    img: "/categories/injection.jpg",
-    link: "/product/category/injection/246"
-  },
-  {
     label: "Drops",
     img: "/categories/drops.jpg",
     link: "/product/category/drops/290"
