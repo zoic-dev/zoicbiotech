@@ -73,31 +73,31 @@ const productCategories = [
     img: "/categories/juices.jpg",
     link: "/product/category/juice/370"
   },
-  {
-    label: "Face Wash",
-    img: "/categories/face-wash.jpg",
-    link: "/product/category/face-wash/628"
-  },
+  // {
+  //   label: "Face Wash",
+  //   img: "/categories/face-wash.jpg",
+  //   link: "/product/category/face-wash/628"
+  // },
   {
     label: "Energy Drink",
     img: "/categories/energy-drinks.jpg",
     link: "/product/category/enery-drink/398"
   },
-  {
-    label: "Cream",
-    img: "/categories/cream.jpg",
-    link: "/product/category/cream/286"
-  },
+  // {
+  //   label: "Cream",
+  //   img: "/categories/cream.jpg",
+  //   link: "/product/category/cream/286"
+  // },
   {
     label: "Medicine",
     img: "/categories/medicine.jpg",
     link: "/product/category/medicine/15"
   },
-  {
-    label: "Churans",
-    img: "/categories/churans.jpg",
-    link: "/product/category/churan/347"
-  },
+  // {
+  //   label: "Churans",
+  //   img: "/categories/churans.jpg",
+  //   link: "/product/category/churan/347"
+  // },
 ];
 
 export default function Home() {
@@ -175,7 +175,7 @@ export default function Home() {
 
           <Grid container spacing={2} justifyContent="center">
             {productCategories.map((item, index) => (
-              <Grid key={index} size={{ xs: 6, sm: 4, md: 2 }}>
+              <Grid key={index} size={{ xs: 6, sm: 4, md: 3 }}>
                 <Link href={item.link || "#"}>
                   <Card
                     sx={{
