@@ -46,7 +46,7 @@ export default function PageContent() {
                         We offer distinctive Healthcare medicines and products with complete hygiene and safety like:
                     </Typography>
 
-                    <Grid container spacing={2} textAlign={"center"}>
+                    <Grid container spacing={2} textAlign={"center"} justifyContent={"center"}>
                         <Grid size={{ xs: 6, sm: 4, md: 2.4 }} boxShadow={4}>
                             <Stack p={2} spacing={2} alignItems={"center"}>
                                 <img src={"/tablet.png"} width={48} height={48} />
@@ -79,14 +79,14 @@ export default function PageContent() {
                                 </Typography>
                             </Stack>
                         </Grid>
-                        <Grid size={{ xs: 6, sm: 4, md: 2.4 }} boxShadow={4}>
+                        {/* <Grid size={{ xs: 6, sm: 4, md: 2.4 }} boxShadow={4}>
                             <Stack p={2} spacing={2} alignItems={"center"}>
                                 <img src={"/injection.png"} width={48} height={48} />
                                 <Typography variant="h6">
                                     Injections
                                 </Typography>
                             </Stack>
-                        </Grid>
+                        </Grid> */}
                     </Grid>
 
                     <Stack spacing={2}>
@@ -100,13 +100,13 @@ export default function PageContent() {
 
                         <List component="ul" sx={{ listStyleType: 'disc', pl: 4 }}>
                             <ListItem component="li" sx={{ display: 'list-item' }}>
-                                Phase 1 - The pharma third-party manufacturing department gets the formulation approvals in 5 to 7 days. After that, the manufacturing of the packaging materials like Cartons, containers, labels, foils, etc. takes up to 10 to 20 days.
+                                Phase 1 - The pharma third-party manufacturing department gets the formulation approvals in 7 to 10 days. After that, the manufacturing of the packaging materials like Cartons, containers, labels, foils, etc. takes up to 15 to 25 days.
                             </ListItem>
                             <ListItem component="li" sx={{ display: 'list-item' }}>
-                                Phase 2 - Product production will take up to 10 to 15 days. After this, the dispatch delivery takes around 2 to 7 days depending upon the target location
+                                Phase 2 - Product production will take up to 12 to 18 days. After this, the dispatch delivery takes around 3 to 7 days depending upon the target location
                             </ListItem>
                             <ListItem component="li" sx={{ display: 'list-item' }}>
-                                Phase 3 - Zoic Biotech takes around 40 to 50 days for the delivery of the products depending upon the number of orders.
+                                Phase 3 - Zoic Biotech takes around 45 to 60 days for the delivery of the products depending upon the number of orders.
                             </ListItem>
                         </List>
 
@@ -151,7 +151,7 @@ export default function PageContent() {
                                 <Link href="#">Energy Drinks</Link>
                             </ListItem>
                             <ListItem component="li" sx={{ display: 'list-item' }}>
-                                <Link href="#">DIgestive Supplements</Link>
+                                <Link href="#">Digestive Supplements</Link>
                             </ListItem>
                             <ListItem component="li" sx={{ display: 'list-item' }}>
                                 <Link href="#">Juices</Link>
