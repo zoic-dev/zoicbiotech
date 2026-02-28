@@ -412,32 +412,32 @@ export default function Home() {
           <Grid container spacing={6}>
             {[
               {
-                image: "/icon-01.png",
+                image: "/Icon-01.png",
                 title: "ISO Certified",
                 text: "Committed to high quality pharmaceutical manufacturing standards.",
               },
               {
-                image: "/icon-02.png",
+                image: "/Icon-02.png",
                 title: "Dedicated Workforce",
                 text: "Highly experienced professionals ensuring excellence.",
               },
               {
-                image: "/icon-03.png",
+                image: "/Icon-03.png",
                 title: "Ethics & Compliance",
                 text: "Strict adherence to pharma industry regulations.",
               },
               {
-                image: "/icon-04.png",
+                image: "/Icon-04.png",
                 title: "Awards & Achievements",
                 text: "Recognized for quality medicine formulation.",
               },
               {
-                image: "/icon-05.png",
+                image: "/Icon-05.png",
                 title: "Packaging",
                 text: "Advanced packaging ensuring leak-proof delivery.",
               },
               {
-                image: "/icon-06.png",
+                image: "/Icon-06.png",
                 title: "Our Quality Approach",
                 text: "Committed to follow the quality norms for manufacturing products.",
               },
