@@ -112,7 +112,7 @@ export default function Navbar() {
             // ],
         },
         { label: "Services", href: "/services" },
-        { label: "Accreditations", href: "/accreditations" },
+        // { label: "Accreditations", href: "/accreditations" },
         { label: "Contact", href: "/contact" },
     ];
 
