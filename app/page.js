@@ -442,7 +442,7 @@ export default function Home() {
                 text: "Committed to follow the quality norms for manufacturing products.",
               },
             ].map((item, i) => (
-              <Grid key={i} item size={{ xs: 12, md: 4 }}>
+              <Grid key={i} size={{ xs: 12, md: 4 }}>
                 <Stack direction="row" spacing={3} alignItems="flex-start">
 
                   {/* PERFECT ICON WRAPPER */}

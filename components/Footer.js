@@ -227,7 +227,7 @@ const Footer = () => {
                                         "&:hover": { color: "#E42527" },
                                     }}
                                 >
-                                    PLOT NO. 194, Sector 82, JLPL Industrial Area, Mohali
+                                    PLOT NO. 193, Sector 82, JLPL Industrial Area, Mohali
                                 </MUILink>
                             </Stack>
                         </Stack>

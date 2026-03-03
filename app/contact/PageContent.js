@@ -1,6 +1,6 @@
 "use client";
 
-import { AccessTime, Email, Phone } from "@mui/icons-material";
+import { AccessTime, Email, LocationPin, Phone } from "@mui/icons-material";
 import { Container, Grid, IconButton, Snackbar, Stack, Toolbar, Typography } from "@mui/material";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
@@ -138,7 +138,7 @@ export default function PageContent() {
                 textAlign="center"
                 alignItems="stretch"
             >
-                <Grid size={{ xs: 12, sm: 6, md: 4 }} display="flex">
+                <Grid size={{ xs: 12, sm: 6, md: 6 }} display="flex">
                     <Stack
                         spacing={2}
                         p={3}
@@ -166,19 +166,19 @@ export default function PageContent() {
                                 "&:hover": { backgroundColor: "#E64A19" },
                             }}
                         >
-                            <Phone fontSize="medium" />
+                            <LocationPin fontSize="medium" />
                         </IconButton>
                         <Typography variant="h5" fontWeight={600} gutterBottom>
-                            Phone
+                            Corporate Office
                         </Typography>
                         <Stack direction="row" justifyContent="center" spacing={2}>
                             <Link href="tel:9815620908">
-                                <Typography variant="body1">98156-20908</Typography>
+                                <Typography variant="body1">Plot No 193, Sector 82, JLPL Industrial Area, Sahibzada Ajit Singh Nagar, Punjab 140306</Typography>
                             </Link>
                         </Stack>
                     </Stack>
                 </Grid>
-                <Grid size={{ xs: 12, sm: 6, md: 4 }} display="flex">
+                <Grid size={{ xs: 12, sm: 6, md: 6 }} display="flex">
                     <Stack
                         spacing={2}
                         p={3}
@@ -206,54 +206,15 @@ export default function PageContent() {
                                 "&:hover": { backgroundColor: "#E64A19" },
                             }}
                         >
-                            <Email fontSize="medium" />
+                            <LocationPin fontSize="medium" />
                         </IconButton>
                         <Typography variant="h5" fontWeight={600} gutterBottom>
-                            Email
+                            Manufacturing Plant
                         </Typography>
                         <Stack direction="row" justifyContent="center" spacing={2}>
                             <Link href="mailto:contact@zoicpharma.com">
-                                <Typography variant="body1">contact@zoicpharma.com</Typography>
+                                <Typography variant="body1">Plot No. C-15, Industrial Focal Point, Chanalon, Kurali, SAS Nagar, Punjab, 140103</Typography>
                             </Link>
-                        </Stack>
-                    </Stack>
-                </Grid>
-                <Grid size={{ xs: 12, sm: 6, md: 4 }} display="flex">
-                    <Stack
-                        spacing={2}
-                        p={3}
-                        alignItems="center"
-                        sx={{
-                            borderRadius: 3,
-                            flexGrow: 1,
-                            justifyContent: "space-between",
-                            boxShadow: "rgb(0 0 0 / 10%) 0px 3px 8px",
-                            transition: "all 0.3s ease",
-                            backgroundColor: "#fff",
-                            "&:hover": {
-                                transform: "translateY(-4px)",
-                                boxShadow: "rgb(0 0 0 / 20%) 0px 6px 12px",
-                            },
-                        }}
-                    >
-                        <IconButton
-                            sx={{
-                                width: 60,
-                                height: 60,
-                                borderRadius: "50%",
-                                color: "#fff",
-                                backgroundColor: "#E64A19",
-                                "&:hover": { backgroundColor: "#E64A19" },
-                            }}
-                        >
-                            <AccessTime fontSize="medium" />
-                        </IconButton>
-                        <Typography variant="h5" fontWeight={600} gutterBottom>
-                            Timings
-                        </Typography>
-                        <Stack justifyContent="center">
-                            <Typography variant="body1">Monday - Saturday</Typography>
-                            <Typography variant="body1">9.00 AM - 6.00 PM</Typography>
                         </Stack>
                     </Stack>
                 </Grid>

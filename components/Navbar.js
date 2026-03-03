@@ -112,7 +112,7 @@ export default function Navbar() {
             // ],
         },
         { label: "Services", href: "/services" },
-        // { label: "Accreditations", href: "/accreditations" },
+        { label: "FAQs", href: "/frequently-asked-questions" },
         { label: "Contact", href: "/contact" },
     ];
 
@@ -277,21 +277,24 @@ export default function Navbar() {
                                     </Link>
                                 )
                             )}
-                            <Button
-                                component={Link}
-                                href="/contact"
-                                variant="outlined"
-                                sx={{
-                                    borderColor: "#E42527",
-                                    color: "#E42527",
-                                    fontFamily: '"Montserrat", sans-serif',
-                                    fontWeight: 600,
-                                    "&:hover": { backgroundColor: "#E42527", color: "#fff" },
-                                }}
-                            >
-                                ENQUIRE NOW
-                            </Button>
                         </Stack>
+                    )}
+
+                    {!isMobile && (
+                        <Button
+                            component={Link}
+                            href="/contact"
+                            variant="outlined"
+                            sx={{
+                                borderColor: "#E42527",
+                                color: "#E42527",
+                                fontFamily: '"Montserrat", sans-serif',
+                                fontWeight: 600,
+                                "&:hover": { backgroundColor: "#E42527", color: "#fff" },
+                            }}
+                        >
+                            ENQUIRE NOW
+                        </Button>
                     )}
 
                     {/* Mobile Drawer Button */}
