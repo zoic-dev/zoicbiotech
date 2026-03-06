@@ -19,11 +19,11 @@ const nextConfig = {
 
   async redirects() {
     return [
-      // {
-      //   source: "/",
-      //   destination: "/",
-      //   permanent: true
-      // }
+      {
+        source: "/pharma-third-party-manufacturers-in-karnataka",
+        destination: "/blog/pharma-third-party-manufacturers-in-karnataka",
+        permanent: true
+      }
     ]
   }
 };

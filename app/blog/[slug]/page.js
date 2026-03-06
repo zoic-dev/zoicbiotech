@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
 
   if (!post) {
     return {
-      title: "Blog Not Found | ZocVeda",
+      title: "Blog Not Found | Zoic Biotech",
     };
   }
 
@@ -68,7 +68,7 @@ export default async function Page({ params }) {
 
   const cleanedPost = {
     id: post.id,
-    title: post.title?.rendered || "Biozoc Inc. - Blog Post",
+    title: post.title?.rendered || "Zoic Biotech - Blog Post",
     content: post.content?.rendered || "",
     excerpt: post.excerpt?.rendered || "",
     date: post.date,

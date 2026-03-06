@@ -1,9 +1,9 @@
 import PageContent from "./PageContent";
 
 export const metadata = {
-    title: "Contact Biozoc Inc. | Pharma & Nutraceutical Manufacturing Inquiries",
+    title: "Contact Us | Nutraceutical Manufacturers in India",
     description:
-        "Get in touch with Biozoc Inc. for pharma and nutraceutical contract manufacturing inquiries. Reach our WHO-GMP certified team for product pricing, custom formulations, private labeling, and OEM services in India.",
+        "Get in touch with nutraceutical manufacturing experts in India for inquiries about products, third party manufacturing, dietary supplements, and custom solutions.",
     keywords:
         "contact Biozoc Inc, pharma manufacturing inquiry, nutraceutical manufacturer contact, third party pharma contact, OEM pharma support, private label nutraceuticals India, pharma contract manufacturing support, Biozoc customer care",
 };

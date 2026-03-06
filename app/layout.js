@@ -8,11 +8,9 @@ import Script from "next/script";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-  title: "Zoic Biotech Pvt. Ltd. | Leading Pharma & Nutraceutical Manufacturer in India",
+  title: "Third-Party Manufacturing of Herbal, Nutraceuticals, Softgels, Gummies and Cosmetics",
   description:
-    "Zoic Biotech is a trusted PCD pharma company and third-party manufacturer offering premium pharmaceutical and nutraceutical products with WHO-GMP certified facilities, custom formulations, private labeling, and nationwide PCD franchise opportunities.",
-  keywords:
-    "Zoic Biotech, pharma manufacturer India, nutraceutical manufacturer India, third party pharma manufacturing, contract manufacturing pharma, PCD pharma company, PCD franchise India, private label nutraceuticals, pharma OEM services, custom formulation pharma, WHO GMP certified manufacturer",
+    "Best Third-party pharma manufacturing in India for nutraceuticals, softgels, gummies and chemical cosmetics with WHO-GMP production and custom formulations.",
 };
 
 export default function RootLayout({ children }) {

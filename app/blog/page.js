@@ -1,8 +1,8 @@
 import PostsList from "@/components/PostLists";
 
 export const metadata = {
-  title: "Blog - Latest Posts | Zocveda Wellness",
-  description: "Read the latest posts and articles from our blog.",
+  title: "Nutraceutical and Healthcare Blog in India",
+  description: "Nutraceutical and pharma blog featuring expert insights on third-party manufacturing, supplements, softgels, gummies, formulations, and wellness trends.",
 };
 
 export default function PostsPage() {

@@ -106,12 +106,10 @@ export default async function sitemap() {
        2. Static Pages
     ------------------------------------------------------ */
     const staticPages = [
-        "",
+        "/",
         "/about",
         "/contact",
         "/products",
-        "/ayurvedic-pcd-pharma-franchise",
-        "/third-party-manufacturing",
         "/blog",
         "/frequently-asked-questions",
         "/privacy-policy",
