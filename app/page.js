@@ -3,8 +3,9 @@
 import FAQComponent from "@/components/FAQComponent";
 import { PAGE_FAQS } from "@/data/faqsdata";
 import { Business, CalendarToday, EmojiEvents, Gavel, Groups, Handshake, Inventory2, MedicalServices, ReceiptLong, TrendingUp, Verified, Visibility } from "@mui/icons-material";
-import { Button, Container, Grid, Stack, Typography, Card, Toolbar } from "@mui/material";
+import { Button, Container, Grid, Stack, Typography, Card, Toolbar, Box, Skeleton } from "@mui/material";
 import Link from "next/link";
+import { useState } from "react";
 
 const manufacturingUnits = [
   { title: "Zoic Biotech Pvt. Ltd.", desc: "WHO-GMP certified formulation facility." },
@@ -101,10 +102,47 @@ const productCategories = [
 ];
 
 export default function Home() {
+  const [loaded, setLoaded] = useState(false);
+
   return (
     <>
-      {/* HERO VIDEO */}
-      <video src={"https://cms.zoicbiotech.com/wp-content/uploads/2020/09/final-1.mp4"} style={{ width: '100%', height: 'auto', display: 'block' }} autoPlay loop />
+      <Box sx={{ width: "100%", position: "relative" }}>
+        {/* Skeleton while video loads */}
+        {!loaded && (
+          <Skeleton
+            variant="rectangular"
+            animation="wave"
+            sx={{
+              width: "100%",
+              borderRadius: 2,
+              height: {
+                xs: 225,
+                sm: 300,
+                md: 350,
+                lg: 500,
+                xl: 620
+              }
+            }}
+          />
+        )}
+
+        {/* HERO VIDEO */}
+        <Box
+          component="video"
+          src="/homepage.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="metadata"
+          onLoadedData={() => setLoaded(true)}
+          sx={{
+            width: "100%",
+            height: "auto",
+            display: loaded ? "block" : "none"
+          }}
+        />
+      </Box>
 
       {/* RED INTRO STRIP */}
       <Stack sx={{ background: "#e42527", py: 6, color: "white" }}>

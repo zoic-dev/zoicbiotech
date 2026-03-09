@@ -18,10 +18,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Google Site Verification */}
-        {/* <meta
+        <meta
           name="google-site-verification"
-          content="XQjp9mCqpTlpym58nSH8t69Ojq941EU7Mmnyao0yGY8"
-        /> */}
+          content="NVrg6zfUQOisvv-P2CL1HxoSv5awrS9FSsBwcWwPk4s"
+        />
 
         {/* ✅ GTM Head Script */}
         {/* <Script id="gtm-head" strategy="afterInteractive">
@@ -40,8 +40,8 @@ export default function RootLayout({ children }) {
         </Script> */}
 
         {/* ✅ Google Analytics */}
-        {/* <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-Q7YBJZQ12S"
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=UA-180220730-1"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -49,9 +49,9 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-Q7YBJZQ12S');
+            gtag('config', 'UA-180220730-1');
           `}
-        </Script> */}
+        </Script>
       </head>
       <body>
         {/* ✅ GTM Body Noscript */}
