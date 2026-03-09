@@ -111,7 +111,7 @@ export default function Home() {
         {!loaded && (
           <Skeleton
             variant="rectangular"
-            animation="wave"
+            animation="pulse"
             sx={{
               width: "100%",
               borderRadius: 2,

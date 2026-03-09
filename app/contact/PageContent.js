@@ -172,7 +172,7 @@ export default function PageContent() {
                             Corporate Office
                         </Typography>
                         <Stack direction="row" justifyContent="center" spacing={2}>
-                            <Link href="tel:9815620908">
+                            <Link target="_blank" href="https://maps.app.goo.gl/nd6LxA7mMFaggy3p9">
                                 <Typography variant="body1">Plot No 193, Sector 82, JLPL Industrial Area, Sahibzada Ajit Singh Nagar, Punjab 140306</Typography>
                             </Link>
                         </Stack>
@@ -212,7 +212,7 @@ export default function PageContent() {
                             Manufacturing Plant
                         </Typography>
                         <Stack direction="row" justifyContent="center" spacing={2}>
-                            <Link href="mailto:contact@zoicpharma.com">
+                            <Link target="_blank" href="https://maps.app.goo.gl/7F7H5bZTmywnbAvZ6">
                                 <Typography variant="body1">Plot No. C-15, Industrial Focal Point, Chanalon, Kurali, SAS Nagar, Punjab, 140103</Typography>
                             </Link>
                         </Stack>
