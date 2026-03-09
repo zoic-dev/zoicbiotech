@@ -4890,16 +4890,6 @@ const nextConfig = {
         "permanent": true
       },
       {
-        "source": "/wp-content/themes/betheme/*",
-        "destination": "/",
-        "permanent": true
-      },
-      {
-        "source": "/wp-content/*",
-        "destination": "/",
-        "permanent": true
-      },
-      {
         "source": "/product/vitamin-k2\u20137-22-5-mcg-calcitriol-0-25-mcg-calcium-carbonate-625-mg-boron-500-mcg-zinc-7-5-mg-cap-tablets",
         "destination": "/product/vitamin-k2%c2%967-22-5-mcg-calcitriol-0-25-mcg-calcium-carbonate-625-mg-boron-500-mcg-zinc-7-5-mg-cap-tablets/",
         "permanent": true
