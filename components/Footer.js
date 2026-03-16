@@ -182,7 +182,7 @@ const Footer = () => {
 
                                 <MUILink
                                     component={Link}
-                                    href={"mailto:contact@zoicpharma.com"}
+                                    href={"mailto:info@zoicpharmaceuticals.com"}
                                     underline="none"
                                     sx={{
                                         color: "#acacac",
@@ -191,7 +191,7 @@ const Footer = () => {
                                         "&:hover": { color: "#E42527" },
                                     }}
                                 >
-                                    contact@zoicpharma.com
+                                    info@zoicpharmaceuticals.com
                                 </MUILink>
                             </Stack>
 
@@ -199,7 +199,7 @@ const Footer = () => {
                                 <Phone fontSize="small" />
                                 <MUILink
                                     component={Link}
-                                    href={"tel:9815620908"}
+                                    href={"tel:9815846085"}
                                     underline="none"
                                     sx={{
                                         color: "#acacac",
@@ -208,7 +208,7 @@ const Footer = () => {
                                         "&:hover": { color: "#E42527" },
                                     }}
                                 >
-                                    +91-98156-20908
+                                    +91 98158-46085
                                 </MUILink>
                             </Stack>
 
