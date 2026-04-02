@@ -9,8 +9,8 @@ const BG = "#F3FFF8";
 const accreditationImages = [
     { src: "/accreditations/FSSAI.jpg", alt: "FSSAI Certificate" },
     { src: "/accreditations/HALAL.jpg", alt: "Halal Certification" },
-    { src: "/accreditations/ISO-scaled.jpg", alt: "ISO Certificate" },
-    { src: "/accreditations/WHO-GMP-CERTIFICATE.jpg", alt: "WHO-GMP Certificate" },
+    { src: "/accreditations/iso.jpg", alt: "ISO Certificate" },
+    { src: "/accreditations/who.jpg", alt: "WHO-GMP Certificate" },
     { src: "/accreditations/GMP-pic.jpg", alt: "GMP Certificate" },
     { src: "/accreditations/certificate3.jpg", alt: "Other Certificate" }
 ];
