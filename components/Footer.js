@@ -217,7 +217,7 @@ const Footer = () => {
                                 <MUILink
                                     component={Link}
                                     target="_blank"
-                                    href={"https://maps.app.goo.gl/oLwpgL12XkZWpPsk9"}
+                                    href={"https://maps.app.goo.gl/Tyjj9NBM2kTqvbXaA"}
                                     underline="none"
                                     sx={{
                                         color: "#acacac",
