@@ -72,7 +72,7 @@ export default function RootLayout({ children }) {
         <WhatsAppButton />
 
         {/* ✅ Tawk.to Script */}
-        <Script id="tawk-to" strategy="afterInteractive">
+        {/* <Script id="tawk-to" strategy="afterInteractive">
           {`
             var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
             (function(){
@@ -84,6 +84,14 @@ export default function RootLayout({ children }) {
               s0.parentNode.insertBefore(s1,s0);
             })();
           `}
+        </Script> */}
+
+        <Script
+          id="messenger-widget-b"
+          src="https://cdn.botpenguin.com/website-bot.js"
+          strategy="afterInteractive"
+        >
+          {`69de232fcee2f8a252a2ace2,69d63c998639fcb260aea92b`}
         </Script>
       </body>
     </html>
